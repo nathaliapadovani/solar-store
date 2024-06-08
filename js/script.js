@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const botoes = document.querySelectorAll(".botao-introducao, .botao-produtos");
 
 function removerHoverStyle(e) {
+  console.log('Hover removido do botão:', e.target);
   e.target.style.backgroundColor = '';
   e.target.style.padding = '';
   e.target.style.fontSize = ''; 
