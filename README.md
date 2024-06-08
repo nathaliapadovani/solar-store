@@ -30,4 +30,4 @@ Sua opinião é importante para nós! Entre em contato através dos nossos canai
 
 📞 **Contato**: +55 17 99637-0956
 
-👉 **Visite nosso site**: [https://solar-store-three.vercel.app/]
+👉 **Visite nosso site**: https://solar-store-three.vercel.app/
