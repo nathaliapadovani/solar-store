@@ -3,7 +3,8 @@ if (window.SimpleAnime) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const botoes = document.querySelectorAll("botao-introducao");
+  // Seleciona todos os botões com as classes .botao-introducao e .botao-produtos
+  const botoes = document.querySelectorAll(".botao-introducao, .botao-produtos");
 
 function removerHoverStyle(e) {
   e.target.style.backgroundColor = '';
