@@ -46,8 +46,7 @@ img {
   width: 100%;
 }
 
-.botao-introducao:active,
-.botao-introducao:focus {
+.botao-introducao {
   font: 1.25rem 'Josefin Sans', sans-serif;
   color: #ffffff;
   background: #000000;
@@ -55,13 +54,6 @@ img {
   margin-bottom: 15px;
   padding: 20px 36px;
   align-self: center;
-}
-
-.botao-introducao:hover:active,
-.botao-introducao:hover:focus {
-  background-color: #1E1E1E;
-  padding: 24px 40px;
-  font-size: 1.5rem;
 }
 
 @media (max-width: 980px) {
