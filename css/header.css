@@ -1,0 +1,58 @@
+.titulo-hdr img {
+ padding-top: 60px;
+ padding-bottom: 40px;
+}
+
+.nav-container {
+  margin: 0 auto;
+}
+
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  border-top: 1px solid #000000; /* Distância entre o h1 e o menu navegaçao*/
+  border-bottom: 1px solid #000000; /* linha inferior*/
+}
+
+.menu-nav a {
+  padding: 16px 16px;
+  position: relative;
+}
+
+.menu-nav a:hover {
+  color: #8c8c8c;
+  font-size: 1.8rem;
+}
+  
+
+/*alinhamento do svg e tamanho*/
+.menu-nav img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; /* Alinha verticalmente o SVG com o texto */
+}
+
+@media (max-width: 1150px) {
+  .menu-nav {
+    gap: 8px;
+  }
+  .menu-nav img {
+    display: none;
+  }
+}
+
+@media (max-width: 830px) {
+  .menu-nav {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu-nav {
+    display: none;
+  }
+}
+
+

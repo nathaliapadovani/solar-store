@@ -1,0 +1,29 @@
+.informacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 80px;
+}
+
+.informacoes-completas img {
+  margin-bottom: 24px;
+}
+
+.informacoes-completas p {
+  max-width: 15ch;
+  line-height: 28px;
+}
+
+@media (max-width: 1200px) {
+  .informacoes {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .informacoes {
+    gap: 60px;
+  }
+}
+
