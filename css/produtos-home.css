@@ -79,6 +79,10 @@
   padding: 24px 80px;
 }
 
+.botao-produtos:hover {
+  background: #323232;
+}
+
 @media (max-width: 1250px) {
   .queridinhos-titulo,
   .conjuntinhos-titulo {
