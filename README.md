@@ -1,33 +1,83 @@
-
-
 ![Solar Store](https://github.com/nathaliapadovani/solar-store/assets/113705196/bfb4c896-539f-4d72-ada0-c90c2d079cf6)
 
-# 👗👚 Solar Store - Roupas femininas para todos os gostos e tamanhos com alta qualidade, envio para todo o Brasil. 
-
-Bem-vindo(a) ao repositório do nosso site de vendas, onde a moda é para todos! Aqui na **Solar Store**, acreditamos que estilo e conforto são para todos os corpos e gostos. Confira nosso site responsivo, feito com amor ❤️ e cuidado para garantir a melhor experiência em qualquer dispositivo - seja desktop, tablet ou celular. 
-
-## 🌟 Destaques do Projeto
-
-- **Tecnologias Modernas**: Construído com `HTML`, `CSS`, `JavaScript`, `Flexbox` e `Grid` para um design responsivo impecável.
-- **Design Responsivo**: Perfeito para visualização em desktop, tablet ou celular.
-- **Animações Dinâmicas**: Animações feitas com `JavaScript` para dar vida aos produtos, deslizando suavemente de cima para baixo.
-- **Navegação Intuitiva**: Menu de navegação simplificado para uma experiência de usuário sem esforço.
-- **Catálogo Diversificado**: Fotos detalhadas e descrições dos produtos com um convite visual para saber mais.
-- **Queridinhos do Momento e Conjuntinhos**: Destaques na página principal com uma prévia dos produtos mais amados e conjuntos da moda.
-- **Informações Úteis**: Tudo sobre vendas online, formas de pagamento, novidades no Instagram e muito mais.
-
-## 🛍️ Pronto para Comprar?
-
-Clique em "Saiba Mais" para mergulhar no nosso universo de produtos e encontrar o look perfeito para você. Não esqueça de nos seguir no Instagram para as últimas novidades!
-
-## 📲 Fique Conectado(a)
-
-Sua opinião é importante para nós! Entre em contato através dos nossos canais de atendimento listados no footer. Na **Solar Store**, você está sempre em grande estilo!
-
----
-
-🔒 **Direitos Reservados**: Todo o conteúdo deste repositório é propriedade da Solar Store.
-
-📞 **Contato**: +55 17 99637-0956
 
 👉 **Visite nosso site**: https://solar-store-three.vercel.app/
+
+# Solar Store - E-commerce de Roupas Femininas
+
+Bem-vindo ao repositório da Solar Store, um projeto de e-commerce desenvolvido para demonstrar habilidades em desenvolvimento front-end, com foco em design responsivo, interatividade e boas práticas de codificação. Este projeto simula uma loja virtual de roupas femininas, com um catálogo dinâmico e uma interface otimizada para diferentes dispositivos.
+
+## 🎯 Objetivo do Projeto
+O objetivo da Solar Store é criar uma plataforma de e-commerce funcional, com uma interface amigável e visualmente atraente. O projeto foi construído do zero para praticar e demonstrar competências em HTML, CSS, JavaScript, e técnicas modernas de layout, como Flexbox e Grid.
+
+### 🛠️ Tecnologias Utilizadas
+
+- **`HTML5`**: Estrutura semântica para acessibilidade e SEO.
+- **`CSS3`**: Estilização com Flexbox, Grid, e media queries para responsividade.
+- **`JavaScript (ES6+)`**: Animação na tela inicial feitas com `JavaScript` para dar vida aos produtos, deslizando suavemente.
+- **`Vercel`**: Plataforma de deploy para hospedagem do site.
+
+## 📑 Estrutura do Repositório
+```
+CSS/
+├── animacao.css
+└── footer.css
+└── global.css
+└── header.css
+└── introducao.css
+└── informacoes.css
+└── produtos-home.css
+└── tipografia.css
+└── todos-produtos.css
+imagems otimizadas/
+js/
+├── plugins/
+├── simple-anime.js (Animação da tela inicial Home e Produtos)
+└── script.js (Chamando o plugin)
+vetor/
+README.md
+index.html    (Página principal do site)
+produtos.html (Página dos produtos)
+style.css (importação dos CSS)
+style.min.css
+```
+
+## 🚀 Funcionalidades Implementadas
+
+- Catálogo Dinâmico: Exibição de produtos com imagens, descrições e botões interativos.
+- Design Responsivo: Layout adaptável para desktops, tablets e dispositivos móveis.
+- Animações Suaves: Efeitos de transição e animações em JavaScript para destacar produtos.
+- Navegação Intuitiva: Menu fixo com links para seções principais (home, catálogo, contato).
+- Otimização de Performance: Imagens comprimidas e código modular para carregamento rápido.
+
+## 🧠 Decisões Técnicas
+
+- Flexbox e Grid: Escolhidos para layouts flexíveis e responsivos, garantindo compatibilidade com diferentes tamanhos de tela.
+- JavaScript Vanilla: Utilizado para demonstrar proficiência em manipulação do DOM sem dependências externas.
+- Semântica HTML: Uso de tags como `<header>`, `<main>`, e `<footer>`  para melhorar acessibilidade e SEO.
+- Modularidade: Arquivos CSS e JS separados por funcionalidade para facilitar manutenção e escalabilidade.
+
+## 🔧 Como Executar o Projeto
+
+- Clone o repositório: git clone https://github.com/nathaliapadovani/solar-store.git
+
+- Abra o arquivo index.html em um navegador moderno.
+- (Opcional) Use uma ferramenta como Live Server para visualização local com recarregamento automático.
+
+## 🌐 Deploy
+- O site está hospedado no Vercel: https://solar-store-three.vercel.app/.
+  
+## 📚 Aprendizados e Habilidades
+
+- Desenvolvimento de interfaces responsivas e acessíveis.
+- Implementação de animações dinâmicas com JavaScript.
+- Organização de código com metodologias como BEM.
+- Resolução de desafios de compatibilidade cross-browser e cross-device.
+- Configuração e deploy de aplicações web no Vercel.
+
+## 📬 Contato
+- Para feedback ou perguntas sobre o projeto:
+
+- Email: [nathaliapadovani.contato@gmail.com](nathaliapadovani.contato@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/nathaliapadovani96/](https://www.linkedin.com/in/nathaliapadovani96/)
+- GitHub: [github.com/nathaliapadovani](https://github.com/nathaliapadovani)
